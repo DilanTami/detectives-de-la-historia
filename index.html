@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detectives de la Historia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="encabezado">
+    <a href="#inicio" class="marca">
+      <span class="logo">🦉</span>
+      <span>Detectives <strong>de la Historia</strong></span>
+    </a>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#misiones">Misiones</a>
+      <a href="#aventura">Nuestra aventura</a>
+    </nav>
+
+    <a class="boton boton-pequeno" href="#misiones">
+      ¡Explorar! →
+    </a>
+  </header>
+
+  <main>
+    <section class="portada" id="inicio">
+      <div class="contenido">
+        <span class="etiqueta">🔎 TU PRÓXIMA GRAN AVENTURA</span>
+
+        <h1>
+          El pasado es un misterio.
+          <span>¡Tú eres quien lo descubre!</span>
+        </h1>
+
+        <p>
+          Ponte tu sombrero de detective, sigue las pistas
+          y descubre los secretos de la historia y el mundo.
+          ¡Aprender Ciencias Sociales nunca fue tan divertido!
+        </p>
+
+        <div class="acciones">
+          <a href="#misiones" class="boton">
+            Comenzar aventura 🚀
+          </a>
+          <a href="#aventura" class="boton boton-claro">
+            Conocer el proyecto
+          </a>
+        </div>
+
+        <div class="datos">
+          <div><strong>🧩</strong><span>Retos divertidos</span></div>
+          <div><strong>🏆</strong><span>Grandes descubrimientos</span></div>
+          <div><strong>🌎</strong><span>Un mundo por explorar</span></div>
+        </div>
+      </div>
+
+      <div class="mascota">
+        <div class="circulo">
+          <span class="estrella estrella-1">✦</span>
+          <span class="estrella estrella-2">✧</span>
+          <span class="emoji-buho">🦉</span>
+          <span class="lupa">🔎</span>
+        </div>
+        <div class="nota">
+          <span>📜</span>
+          ¡Hay un misterio por resolver!
+        </div>
+      </div>
+    </section>
+
+    <section class="misiones" id="misiones">
+      <div class="titulo-seccion">
+        <span class="etiqueta">ELIGE TU CAMINO</span>
+        <h2>¡Tu aventura comienza aquí!</h2>
+        <p>Cada pista te acerca a un nuevo descubrimiento.</p>
+      </div>
+
+      <div class="tarjetas">
+        <article class="tarjeta tarjeta-verde">
+          <div class="icono">🏺</div>
+          <span class="nivel">MISIÓN 01</span>
+          <h3>Secretos del pasado</h3>
+          <p>Viaja a otras épocas y descubre las civilizaciones
+             que cambiaron el mundo.</p>
+          <button class="boton-tarjeta" data-mision="historia">
+            Investigar →
+          </button>
+        </article>
+
+        <article class="tarjeta tarjeta-amarilla">
+          <div class="icono">🌎</div>
+          <span class="nivel">MISIÓN 02</span>
+          <h3>Exploradores del mundo</h3>
+          <p>Descifra mapas, conoce territorios y descubre
+             los secretos de nuestro planeta.</p>
+          <button class="boton-tarjeta" data-mision="geografia">
+            Explorar →
+          </button>
+        </article>
+
+        <article class="tarjeta tarjeta-rosa">
+          <div class="icono">🕵️</div>
+          <span class="nivel">MISIÓN 03</span>
+          <h3>Detectives ciudadanos</h3>
+          <p>Investiga las sociedades, sus culturas y cómo
+             convivimos en comunidad.</p>
+          <button class="boton-tarjeta" data-mision="sociedad">
+            Descubrir →
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="aventura" id="aventura">
+      <div class="libro">📚</div>
+      <div>
+        <span class="etiqueta">NUESTRA MISIÓN</span>
+        <h2>Aprender es toda una aventura.</h2>
+        <p>
+          Detectives de la Historia es un proyecto educativo
+          pensado para estudiantes de sexto grado. Queremos
+          transformar las Ciencias Sociales en una experiencia
+          de curiosidad, retos y descubrimientos.
+        </p>
+      </div>
+      <div class="insignia">🔎<span>¡Investiga!</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>🦉 Detectives de la Historia</span>
+    <span>Aprende, investiga y descubre. ✨</span>
+  </footer>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+</body>
+</html>
